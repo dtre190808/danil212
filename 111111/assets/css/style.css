@@ -1,0 +1,124 @@
+@font-face {
+  font-family: JetBrains Mono;
+  src: url(../fonts/JetBrainsMono-Medium.ttf);
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: JetBrains Mono;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header__name {
+  color: #fff;
+}
+.header__nav {
+  background-color: #4996CD;
+  display: flex;
+  align-items: center;
+}
+.header__watch {
+  margin-left: 1300px;
+}
+.header__nav2 {
+  background-color: #236AD4;
+  width: 1910px;
+  height: 60px;
+  align-items: center;
+}
+.header__link {
+  color: #fff;
+}
+.header__buttoms {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 25px;
+}
+
+
+.h1__bilets {
+  text-align: center;
+}
+
+form {
+  background-color: #236AD4;
+  padding: 20px;
+  border-radius: 8px;
+  
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #FF5C00;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.searchForm {
+  margin-left: 300px;
+  background-color: #236AD4;
+}
+
+.container3{
+  background-color: #236AD4;
+}
+ 
+
+h1 {
+  margin-top: 20px;
+}
+
+.container5 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.destination {
+  width: 250px;
+}
+
+.destination img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

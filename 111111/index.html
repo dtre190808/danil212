@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <img src="./assets/img/Logo (3).svg" alt="logo" class="header__logo">
+                <h1 class="header__name">Airline</h1>
+                <img src="./assets/img/watch_icon.svg" alt="watch" class="header__watch">
+                <p class="header__time">9:00AM-5:00PM</p>
+
+                </div>
+            </div>
+        </nav>
+        <div class="container-2">
+        <nav class="header__nav2">
+            <div class="header__buttoms">
+                <a href="#" class="header__link">Домой</a>
+                <a href="#" class="header__link">О нас</a>
+                <a href="#" class="header__link">Связаться с нами</a>
+                </div>
+        </nav>
+    </div>
+    </header>
+    <div class="container3">
+    <h1 class="h1__bilets">Поиск Билетов</h1>
+    <form id="searchForm">
+        <label for="from">Откуда:</label>
+        <input type="text" id="from" name="from" required>
+
+        <label for="to">Куда:</label>
+        <input type="text" id="to" name="to" required>
+
+        <label for="departure">Дата вылета:</label>
+        <input type="date" id="departure" name="departure" required>
+
+        <label for="return">Дата возврата:</label>
+        <input type="date" id="return" name="return">
+
+        <label for="adults">Взрослые:</label>
+        <select id="adults" name="adults">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <button type="submit">Найти Билеты</button>
+    </form>
+
+    <script>
+        document.getElementById('searchForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // Здесь можно добавить логику для отправки запроса на сервер
+            alert('Форма отправлена');
+        });
+    </script>
+</div>
+<div class="container4">
+    <title>Исследуйте мир</title>
+    <h1 class="h1__word">Исследуйте мир!</h1>
+    
+    <div class="container5">
+        <div class="destination">
+            <img src="./assets/img/image 2.png" alt="Баган, Мьянма" >
+            <p>Баган, Мьянма<br>20000руб</p>
+        </div>
+        <div class="destination">
+            <img src="./assets/img/image 3.png" alt="Цветные скалы Чжанье Дансия, Китай">
+            <p>Цветные скалы Чжанье Дансия, Китай<br>от 999999руб</p>
+        </div>
+        <div class="destination">
+            <img src="./assets/img/image 4.png" alt="Остров Санторини, Греция">
+            <p>Остров Санторини, Греция<br>от 777777руб</p>
+        </div>
+    </div>
+
+    <button class="button">Показать больше мест</button>
+</div>
+</body>
+</html>
